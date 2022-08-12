@@ -149,7 +149,6 @@ def venues():
     # TODO: replace with real venues data.
     venues = Venue.query.all()
     state_city_set = set()
-    time = datetime.now()
 
     res = []
     for venue in venues:
